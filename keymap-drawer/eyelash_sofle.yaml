@@ -57,7 +57,7 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: SPECIALS}
-  - {t: Ctl+Alt+`, h: FUNCTIONS, s: Ctl+Alt+~}
+  - {t: F19, h: FUNCTIONS}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - SPECIALS
   - BSCP
