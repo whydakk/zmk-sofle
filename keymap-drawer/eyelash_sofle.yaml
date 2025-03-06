@@ -255,7 +255,7 @@ layers:
   - FUNCTIONS
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - SPECIALS
-  - BSCP
+  - {t: '$$mdi:backspace$$', type: backspace}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - {t: BASE, h: toggle}
