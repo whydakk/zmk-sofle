@@ -42,11 +42,11 @@
 
         layer_0 {
             bindings = <
-&kp ESC     &kp N1         &kp N2    &kp N3    &kp N4       &kp N5               &kp UP_ARROW     &kp N6  &kp N7    &kp N8     &kp N9     &kp N0       &kp F20
-&kp CAPS    &kp Q          &kp W     &kp E     &kp R        &kp T                &kp DOWN_ARROW   &kp Y   &kp U     &kp I      &kp O      &kp SEMI     &kp BSLH
-&kp TAB     &mt LSHFT A    &kp S     &kp D     &kp F        &kp G                &kp LEFT_ARROW   &kp H   &kp J     &kp K      &kp L      &mt RSHFT P  &kp ENTER
-&kp LCTRL   &kp Z          &kp X     &kp C     &kp V        &kp B                &kp RIGHT_ARROW  &kp N   &kp M     &kp COMMA  &kp DOT    &kp FSLH     &kp EQUAL
-&kp C_MUTE  &kp LS(MINUS)  &kp LGUI  &kp LALT  &lt 1 SPACE  &lt 2 LC(LA(GRAVE))  &kp ENTER        &mo 1   &kp BSPC  &kp RALT   &kp RCTRL  &to 3
+&kp ESC     &kp N1         &kp N2    &kp N3    &kp N4       &kp N5               &kp UP_ARROW     &kp N6  &kp N7         &kp N8     &kp N9     &kp N0       &kp F20
+&kp GRAVE   &kp Q          &kp W     &kp E     &kp R        &kp T                &kp DOWN_ARROW   &kp Y   &kp U          &kp I      &kp O      &kp SEMI     &kp BSLH
+&kp TAB     &mt LSHFT A    &kp S     &kp D     &kp F        &kp G                &kp LEFT_ARROW   &kp H   &kp J          &kp K      &kp L      &mt RSHFT P  &kp ENTER
+&kp LCTRL   &kp Z          &kp X     &kp C     &kp V        &kp B                &kp RIGHT_ARROW  &kp N   &kp M          &kp COMMA  &kp DOT    &kp FSLH     &kp EQUAL
+&kp C_MUTE  &kp LS(MINUS)  &kp LGUI  &kp LALT  &lt 1 SPACE  &lt 2 LC(LA(GRAVE))  &kp ENTER        &mo 1   &mt RALT BSPC  &kp RCTRL  &kp CAPS   &to 3
             >;
 
             display-name = "BASE";
@@ -85,7 +85,7 @@
 &kp T       &kp TAB        &kp Q        &kp W     &kp E      &kp R   &kp DOWN_ARROW   &kp Y   &kp U     &kp I      &kp O      &kp SEMI     &kp BSLH
 &kp G       &kp LSHFT      &mt LSHFT A  &kp S     &kp D      &kp F   &kp LEFT_ARROW   &kp H   &kp J     &kp K      &kp L      &mt RSHFT P  &kp ENTER
 &kp B       &kp LCTRL      &kp Z        &kp X     &kp C      &kp V   &kp RIGHT_ARROW  &kp N   &kp M     &kp COMMA  &kp DOT    &kp FSLH     &kp EQUAL
-&kp C_MUTE  &kp LS(MINUS)  &kp LGUI     &kp LALT  &kp SPACE  &mo 2   &kp ENTER        &mo 1   &kp BSPC  &kp RALT   &kp RCTRL  &to 0
+&kp C_MUTE  &kp LS(MINUS)  &kp LGUI     &kp LALT  &kp SPACE  &mo 2   &kp ENTER        &mo 1   &kp BSPC  &kp RCTRL  &kp CAPS   &to 0
             >;
 
             display-name = "GAMING";
