@@ -176,10 +176,10 @@ layers:
   - Ctl+F4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - KP 6
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - RGB EFF
+  - RGB SPI
+  - RGB BRI
+  - RGB HUI
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -190,10 +190,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: held}
   - KP 5
   - RGB TOG
-  - RGB EFF
+  - RGB EFR
   - RGB SPD
-  - RGB SPD
-  - RGB SPI
+  - RGB BRD
+  - RGB HUD
   GAMING:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
