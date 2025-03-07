@@ -82,8 +82,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '-', s: _}
   - +
-  - Sft+{
-  - Sft+}
+  - {t: 'Sft+[', s: 'Sft+{'}
+  - {t: 'Sft+]', s: 'Sft+}'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
   - HOME
@@ -93,10 +93,10 @@ layers:
   - F12
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Sft+/, s: 'Sft+?'}
+  - {t: Sft+\, s: Sft+|}
   - {t: Sft+7, s: Sft+&}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: Sft+9, s: Sft+(}
+  - {t: Sft+0, s: Sft+)}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - PG DN
   - $$mdi:arrow-left-bold$$
@@ -108,8 +108,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - '{'
-  - '}'
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - INS
   - {t: '$$mdi:minus-circle-outline$$', type: none}
