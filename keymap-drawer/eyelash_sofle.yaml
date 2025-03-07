@@ -13,7 +13,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - F20
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '`', s: '~'}
   - Q
   - W
   - E
@@ -60,9 +60,9 @@ layers:
   - {t: Ctl+Alt+`, h: FUNCTIONS, s: Ctl+Alt+~}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - SPECIALS
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-caps$$
   - {t: GAMING, h: toggle}
   SPECIALS:
   - {t: '`', s: '~'}
@@ -256,6 +256,6 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - SPECIALS
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-caps$$
   - {t: BASE, h: toggle}
