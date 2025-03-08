@@ -201,7 +201,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - Gui+$$mdi:arrow-up-bold$$
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -214,7 +214,7 @@ layers:
   - W
   - E
   - R
-  - $$mdi:arrow-down-bold$$
+  - Gui+$$mdi:arrow-down-bold$$
   - Y
   - U
   - I
@@ -227,7 +227,7 @@ layers:
   - S
   - D
   - F
-  - $$mdi:arrow-left-bold$$
+  - Gui+$$mdi:arrow-left-bold$$
   - H
   - J
   - K
@@ -240,7 +240,7 @@ layers:
   - X
   - C
   - V
-  - $$mdi:arrow-right-bold$$
+  - Gui+$$mdi:arrow-right-bold$$
   - N
   - M
   - {t: ',', s: <}
