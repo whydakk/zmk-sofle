@@ -1,3 +1,4 @@
+layout: {zmk_keyboard: eyelash_sofle}
 layers:
   BASE:
   - $$mdi:keyboard-esc$$
@@ -61,8 +62,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - SPECIALS
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:backspace-reverse-outline$$
+  - INS
   - {t: GAMING, h: toggle}
   SPECIALS:
   - {t: '`', s: '~'}
@@ -91,7 +92,7 @@ layers:
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F12
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-shift$$
   - {t: Sft+\, s: Sft+|}
   - {t: Sft+7, s: Sft+&}
