@@ -46,7 +46,7 @@
 &kp GRAVE   &kp Q          &kp W     &kp E     &kp R        &kp T                &kp DOWN_ARROW   &kp Y   &kp U          &kp I      &kp O      &kp SEMI     &kp BSLH
 &kp TAB     &mt LSHFT A    &kp S     &kp D     &kp F        &kp G                &kp LEFT_ARROW   &kp H   &kp J          &kp K      &kp L      &mt RSHFT P  &kp ENTER
 &kp LCTRL   &kp Z          &kp X     &kp C     &kp V        &kp B                &kp RIGHT_ARROW  &kp N   &kp M          &kp COMMA  &kp DOT    &kp FSLH     &kp EQUAL
-&kp C_MUTE  &kp LS(MINUS)  &kp LGUI  &kp LALT  &lt 1 SPACE  &lt 2 LC(LA(GRAVE))  &kp ENTER        &mo 1   &mt RALT BSPC  &kp DEL    &kp INS    &to 3
+&kp C_MUTE  &kp LS(MINUS)  &kp LGUI  &kp LALT  &lt 2 SPACE  &lt 3 LC(LA(GRAVE))  &kp ENTER        &mo 2   &mt RALT BSPC  &kp DEL    &kp INS    &to 1
             >;
 
             display-name = "BASE";
@@ -55,41 +55,41 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE  &kp F1     &kp F2        &kp F3      &kp F4        &kp F5        &mmv MOVE_UP     &kp F6     &kp F7    &kp F8    &kp F9     &kp F10   &kp F11
-&none      &none      &kp MINUS     &kp PLUS    &kp LS(LBKT)  &kp LS(RBKT)  &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP    &kp END    &none     &kp F12
-&kp CAPS   &kp LSHFT  &kp LS(BSLH)  &kp LS(N7)  &kp LS(N9)    &kp LS(N0)    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp APOS  &none
-&trans     &none      &none         &none       &kp LBKT      &kp RBKT      &mmv MOVE_RIGHT  &kp INS    &none     &none     &none      &none     &none 
-&trans     &none      &none         &trans      &none         &none         &mkp LCLK        &none      &kp DEL   &trans    &trans     &none 
+&kp ESC     &kp N1         &kp N2    &kp N3    &kp N4     &kp N5  &kp UP_ARROW     &kp N6  &kp N7    &kp N8     &kp N9     &kp N0       &kp F20
+&kp T       &kp TAB        &kp Q     &kp W     &kp E      &kp R   &kp DOWN_ARROW   &kp Y   &kp U     &kp I      &kp O      &kp SEMI     &kp BSLH
+&kp G       &kp LSHFT      &kp A     &kp S     &kp D      &kp F   &kp LEFT_ARROW   &kp H   &kp J     &kp K      &kp L      &mt RSHFT P  &kp ENTER
+&kp B       &kp LCTRL      &kp Z     &kp X     &kp C      &kp V   &kp RIGHT_ARROW  &kp N   &kp M     &kp COMMA  &kp DOT    &kp FSLH     &kp EQUAL
+&kp C_MUTE  &kp LS(MINUS)  &kp LGUI  &kp LALT  &kp SPACE  &mo 3   &kp ENTER        &mo 2   &kp BSPC  &kp DEL    &kp INS    &to 0
+            >;
+
+            display-name = "GAMING";
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+        };
+
+        layer_2 {
+            bindings = <
+&none       &kp F1     &kp F2        &kp F3      &kp F4        &kp F5        &mmv MOVE_UP     &kp F6     &kp F7    &kp F8    &kp F9     &kp F10   &kp F11
+&none       &none      &kp MINUS     &kp PLUS    &kp LS(LBKT)  &kp LS(RBKT)  &mmv MOVE_DOWN   &kp PG_UP  &kp HOME  &kp UP    &kp END    &none     &kp F12
+&kp CAPS    &kp LSHFT  &kp LS(BSLH)  &kp LS(N7)  &kp LS(N9)    &kp LS(N0)    &mmv MOVE_LEFT   &kp PG_DN  &kp LEFT  &kp DOWN  &kp RIGHT  &kp APOS  &none
+&kp LCTRL   &none      &none         &none       &kp LBKT      &kp RBKT      &mmv MOVE_RIGHT  &none      &none     &none     &none      &none     &none 
+&kp C_MUTE  &none      &none         &kp LALT    &none         &none         &mkp LCLK        &none      &none     &none     &none      &none 
             >;
 
             display-name = "SPECIALS";
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_2 {
+        layer_3 {
             bindings = <
 &kp F11  &kp F1       &kp F2       &kp F3       &kp F4      &kp F5   &kp KP_N8  &bt BT_PRV       &bt BT_NXT       &bt BT_CLR       &none            &bootloader      &studio_unlock
 &kp F12  &kp F6       &kp F7       &kp F8       &kp F9      &kp F10  &kp KP_N2  &none            &none            &none            &none            &none            &none
 &none    &kp F14      &kp F15      &kp F16      &kp F17     &kp F18  &kp KP_N4  &none            &none            &none            &none            &none            &none
-&trans   &kp LA(F10)  &kp LA(F10)  &kp LA(F4)   &kp LC(F4)  &none    &kp KP_N6  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &none            &none
-&trans   &none        &none        &none        &none       &none    &kp KP_N5  &rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_HUD
+&none    &kp LA(F10)  &kp LA(F10)  &kp LA(F4)   &kp LC(F4)  &none    &kp KP_N6  &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_BRI  &rgb_ug RGB_HUI  &none            &none
+&none    &none        &none        &none        &none       &none    &kp KP_N5  &rgb_ug RGB_TOG  &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_BRD  &rgb_ug RGB_HUD
             >;
 
             display-name = "FUNCTIONS";
             sensor-bindings = <&scroll_encoder>;
-        };
-
-        layer_3 {
-            bindings = <
-&kp ESC     &kp N1         &kp N2    &kp N3    &kp N4     &kp N5  &kp UP_ARROW     &kp N6  &kp N7    &kp N8     &kp N9     &kp N0       &kp F20
-&kp T       &kp TAB        &kp Q     &kp W     &kp E      &kp R   &kp DOWN_ARROW   &kp Y   &kp U     &kp I      &kp O      &kp SEMI     &kp BSLH
-&kp G       &kp LSHFT      &kp A     &kp S     &kp D      &kp F   &kp LEFT_ARROW   &kp H   &kp J     &kp K      &kp L      &mt RSHFT P  &kp ENTER
-&kp B       &kp LCTRL      &kp Z     &kp X     &kp C      &kp V   &kp RIGHT_ARROW  &kp N   &kp M     &kp COMMA  &kp DOT    &kp FSLH     &kp EQUAL
-&kp C_MUTE  &kp LS(MINUS)  &kp LGUI  &kp LALT  &kp SPACE  &mo 2   &kp ENTER        &mo 1   &kp BSPC  &kp RCTRL  &kp CAPS   &to 0
-            >;
-
-            display-name = "GAMING";
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
     };
 };
