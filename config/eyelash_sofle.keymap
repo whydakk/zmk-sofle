@@ -71,7 +71,7 @@
 &kp C_MUTE  &none      &kp LGUI  &kp LALT  &kp SPACE  &mo 3   &kp ENTER        &mo 2   &kp BSPC  &kp DEL    &kp INS    &to 0
             >;
 
-            display-name = "GAMING";
+        display-name = "GAMING";
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
