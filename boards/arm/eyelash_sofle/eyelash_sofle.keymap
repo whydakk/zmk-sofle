@@ -46,13 +46,6 @@
         tap-ms = <30>;
     };
 
-    macros {
-        arrow_macro: arrow_macro {
-            compatible = "zmk,behavior-macro";
-            bindings = <&kp MINUS &kp LS(DOT)>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
