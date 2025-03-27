@@ -37,11 +37,16 @@
         tap-ms = <100>;
     };
 
+    #define MACRO(_name_, _bindings_)
+    _name__macro: _name__macro {
+        compatible     = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        tap-ms         = <1>;
+        wait-ms        = <1>;
+        bindings       = <_bindings_>;
+    };
     macros {
-        arrow_macro: arrow_macro {
-            compatible = "zmk,behavior-macro";
-            bindings = <&kp MINUS &kp LS(DOT)>;
-        };
+        MACRO(arrow, &kp MINUS &kp LS(DOT))
     };
 
     keymap {
