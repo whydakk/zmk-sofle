@@ -27,6 +27,20 @@
     trigger-period-ms = <16>;
 };
 
+#define MACRO(_name_, _bindings_)
+_name__macro: _name__macro {
+    compatible     = "zmk,behavior-macro";
+    #binding-cells = <0>;
+    tap-ms         = <1>;
+    wait-ms        = <1>;
+    bindings       = <_bindings_>;
+};
+/ {
+    macros {
+        MACRO(arrow, &kp MINUS &kp LS(DOT))
+    };
+};
+
 / {
 
     scroll_encoder: scroll_encoder {
@@ -41,7 +55,7 @@
 
         layer_0 {
             bindings = <
-&kp ESC     &kp N2       &kp N2    &kp N3    &kp N4       &kp N5               &kp UP_ARROW     &kp N6  &kp N7         &kp N8     &kp N9     &kp N0       &kp F20
+&kp ESC     &kp N1       &kp N2    &kp N3    &kp N4       &kp N5               &kp UP_ARROW     &kp N6  &kp N7         &kp N8     &kp N9     &kp N0       &kp F20
 &kp GRAVE   &kp Q        &kp W     &kp E     &kp R        &kp T                &kp DOWN_ARROW   &kp Y   &kp U          &kp I      &kp O      &kp MINUS    &kp EQUAL
 &kp TAB     &mt LSHFT A  &kp S     &kp D     &kp F        &kp G                &kp LEFT_ARROW   &kp H   &kp J          &kp K      &kp L      &mt RSHFT P  &kp ENTER
 &kp LCTRL   &kp Z        &kp X     &kp C     &kp V        &kp B                &kp RIGHT_ARROW  &kp N   &kp M          &kp COMMA  &kp DOT    &kp FSLH     &kp BSLH
@@ -69,7 +83,7 @@
             bindings = <
 &none       &kp F1     &kp F2  &kp F3        &kp F4        &kp F5      &mmv MOVE_UP     &kp F6    &kp F7    &kp F8      &kp F9      &kp F10    &kp F11
 &none       &none      &none   &none         &none         &none       &mmv MOVE_DOWN   &none     &none     &none       &none       &none      &kp F12
-&kp CAPS    &kp LSHFT  &none   &none  &kp LS(BSLH)  &kp LS(N7)  &mmv MOVE_LEFT   &kp LBKT  &kp RBKT  &kp LS(N9)  &kp LS(N0)  &kp SEMI   &kp APOS
+&kp CAPS    &kp LSHFT  &none   &arrow_macro  &kp LS(BSLH)  &kp LS(N7)  &mmv MOVE_LEFT   &kp LBKT  &kp RBKT  &kp LS(N9)  &kp LS(N0)  &kp SEMI   &kp APOS
 &kp LCTRL   &none      &none   &none         &none         &none       &mmv MOVE_RIGHT  &kp HOME  &kp UP    &kp END     &kp PG_UP   &none      &none
 &kp C_MUTE  &none      &none   &kp LALT      &none         &none       &mkp LCLK        &none     &kp LEFT  &kp DOWN    &kp RIGHT   &kp PG_DN 
             >;
