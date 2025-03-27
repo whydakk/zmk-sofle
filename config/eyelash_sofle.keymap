@@ -77,11 +77,11 @@
 
         layer_2 {
             bindings = <
-&none       &kp F1     &kp F2  &kp F3        &kp F4        &kp F5      &mmv MOVE_UP     &kp F6    &kp F7    &kp F8      &kp F9      &kp F10    &kp F11
-&none       &none      &none   &none         &none         &none       &mmv MOVE_DOWN   &none     &none     &none       &none       &none      &kp F12
-&kp CAPS    &kp LSHFT  &none   &arrow_macro  &kp LS(BSLH)  &kp LS(N7)  &mmv MOVE_LEFT   &kp LBKT  &kp RBKT  &kp LS(N9)  &kp LS(N0)  &kp SEMI   &kp APOS
-&kp LCTRL   &none      &none   &none         &none         &none       &mmv MOVE_RIGHT  &kp HOME  &kp UP    &kp END     &kp PG_UP   &none      &none
-&kp C_MUTE  &none      &none   &kp LALT      &none         &none       &mkp LCLK        &none     &kp LEFT  &kp DOWN    &kp RIGHT   &kp PG_DN 
+&none       &kp F1     &kp F2  &kp F3        &kp F4        &kp F5      &mmv MOVE_UP     &kp F6             &kp F7             &kp F8      &kp F9      &kp F10    &kp F11
+&none       &none      &none   &none         &none         &none       &mmv MOVE_DOWN   &none              &none              &none       &none       &none      &kp F12
+&kp CAPS    &kp LSHFT  &none   &arrow_macro  &kp LS(BSLH)  &kp LS(N7)  &mmv MOVE_LEFT   &mt LBKT LS(LBKT)  &mt RBKT LS(RBKT)  &kp LS(N9)  &kp LS(N0)  &kp SEMI   &kp APOS
+&kp LCTRL   &none      &none   &none         &none         &none       &mmv MOVE_RIGHT  &kp HOME           &kp UP             &kp END     &kp PG_UP   &none      &none
+&kp C_MUTE  &none      &none   &kp LALT      &none         &none       &mkp LCLK        &none              &kp LEFT           &kp DOWN    &kp RIGHT   &kp PG_DN 
             >;
 
             display-name = "SPECIALS";
