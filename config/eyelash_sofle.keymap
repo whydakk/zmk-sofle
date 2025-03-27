@@ -32,7 +32,7 @@
         arrow_macro: arrow_macro {
             compatible     = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings       = <&macro_tap &kp MINUS &kp LS(DOT)>;
+            bindings       = <&macro_tap &kp SPACE &kp MINUS &kp LS(DOT) &kp SPACE>;
         };
     };
 };
