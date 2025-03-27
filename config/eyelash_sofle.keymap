@@ -28,7 +28,7 @@
 };
 
 #define MACRO(_name_, _bindings_)
-_name_: _name_ {
+_name_: macro_##_name_ {
     compatible     = "zmk,behavior-macro";
     #binding-cells = <0>;
     tap-ms         = <1>;
