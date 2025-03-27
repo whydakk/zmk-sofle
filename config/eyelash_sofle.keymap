@@ -37,6 +37,14 @@
         tap-ms = <100>;
     };
 
+    macros {
+        arrow_macro: arrow_macro {
+            compatible = "zmk,behavior-macro";
+            label = "ARROW_MACRO";
+            bindings = <&kp MINUS, &kp LS(DOT)>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -103,15 +111,6 @@
 
             display-name = "NUMPAD";
             sensor-bindings = <&scroll_encoder>;
-        };
-
-
-        macros {
-            arrow_macro: arrow_macro {
-                compatible = "zmk,behavior-macro";
-                label = "ARROW_MACRO";
-                bindings = <&kp MINUS, &kp LS(DOT)>;
-            };
         };
     };
 };
