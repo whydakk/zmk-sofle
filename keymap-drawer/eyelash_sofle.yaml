@@ -164,8 +164,8 @@ layers:
   - {t: Sft+\, s: Sft+|}
   - {t: Sft+7, s: Sft+&}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: 'Sft+[', h: '[', s: 'Sft+{'}
+  - {t: 'Sft+]', h: ']', s: 'Sft+}'}
   - {t: Sft+9, s: Sft+(}
   - {t: Sft+0, s: Sft+)}
   - {t: ;, s: ':'}
