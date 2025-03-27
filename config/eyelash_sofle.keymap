@@ -40,8 +40,7 @@
     macros {
         arrow_macro: arrow_macro {
             compatible = "zmk,behavior-macro";
-            label = "ARROW_MACRO";
-            bindings = <&kp MINUS, &kp LS(DOT)>;
+            bindings = <&kp MINUS &kp LS(DOT)>;
         };
     };
 
