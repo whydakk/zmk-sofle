@@ -42,7 +42,7 @@
         notequals_macro: notequals_macro {
             compatible     = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings       = <&macro_tap &kp LS(N1) &kp EQUAL &kp EQUAL &kp SPACE>;
+            bindings       = <&macro_tap &kp LS(N1) &kp EQUAL &kp SPACE>;
         };
     };
 };
