@@ -137,7 +137,7 @@ layers:
   - F3
   - F4
   - F5
-  - $$mdi:arrow-up-bold$$
+  - {t: '8', s: '*'}
   - F6
   - F7
   - F8
@@ -150,7 +150,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-down-bold$$
+  - {t: '2', s: '@'}
   - {t: Sft+7, s: Sft+&}
   - {t: Sft+\, s: Sft+|}
   - '&arrow_macro'
@@ -163,7 +163,7 @@ layers:
   - F16
   - F17
   - F18
-  - $$mdi:arrow-left-bold$$
+  - {t: '4', s: $}
   - {t: 'Sft+[', h: '[', s: 'Sft+{'}
   - {t: 'Sft+]', h: ']', s: 'Sft+}'}
   - {t: Sft+9, s: Sft+(}
@@ -176,7 +176,7 @@ layers:
   - Alt+F4
   - Ctl+F4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:arrow-right-bold$$
+  - {t: '6', s: ^}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
