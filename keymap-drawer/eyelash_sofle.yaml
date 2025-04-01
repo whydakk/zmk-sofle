@@ -137,7 +137,7 @@ layers:
   - F3
   - F4
   - F5
-  - {t: '8', s: '*'}
+  - KP 8
   - F6
   - F7
   - F8
@@ -150,7 +150,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '2', s: '@'}
+  - KP 2
   - {t: Sft+7, s: Sft+&}
   - {t: Sft+\, s: Sft+|}
   - '&arrow_macro'
@@ -163,7 +163,7 @@ layers:
   - F16
   - F17
   - F18
-  - {t: '4', s: $}
+  - KP 4
   - {t: 'Sft+[', h: '[', s: 'Sft+{'}
   - {t: 'Sft+]', h: ']', s: 'Sft+}'}
   - {t: Sft+9, s: Sft+(}
@@ -176,7 +176,7 @@ layers:
   - Alt+F4
   - Ctl+F4
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '6', s: ^}
+  - KP 6
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
