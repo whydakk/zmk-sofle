@@ -27,8 +27,8 @@ layers:
   - O
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-shift$$'}
-  - A
+  - $$mdi:keyboard-tab$$
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - S
   - D
   - F
@@ -38,8 +38,8 @@ layers:
   - J
   - K
   - L
-  - P
-  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: P, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
