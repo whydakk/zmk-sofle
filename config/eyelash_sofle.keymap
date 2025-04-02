@@ -95,11 +95,11 @@
 
         layer_3 {
             bindings = <
-&kp F11    &kp F1     &kp F2  &kp F3    &kp F4  &kp F5   &bt BT_PRV  &none     &none     &none      &none      &none      &none
-&kp F12    &kp F6     &kp F7  &kp F8    &kp F9  &kp F10  &bt BT_NXT  &none     &none     &none      &none      &none      &none
-&none      &kp LSHFT  &none   &none     &none   &none    &bt BT_PRV  &kp HOME  &kp UP    &kp END    &none      &none      &none
-&kp LCTRL  &none      &none   &none     &none   &none    &bt BT_NXT  &kp LEFT  &kp DOWN  &kp RIGHT  &kp PG_UP  &none      &none
-&none      &none      &none   &kp LALT  &none   &none    &bt BT_CLR  &none     &none     &none      &none      &kp PG_DN     
+&kp F11    &kp F1     &kp F2  &kp F3    &kp F4  &kp F5   &bt BT_PRV  &none      &none     &none     &none      &none  &none
+&kp F12    &kp F6     &kp F7  &kp F8    &kp F9  &kp F10  &bt BT_NXT  &none      &kp HOME  &kp UP    &kp END    &none  &none
+&none      &kp LSHFT  &none   &none     &none   &none    &bt BT_PRV  &kp PG_UP  &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none
+&kp LCTRL  &none      &none   &none     &none   &none    &bt BT_NXT  &kp PG_DN  &none     &none     &none      &none  &none
+&none      &none      &none   &kp LALT  &none   &none    &bt BT_CLR  &none      &none     &none     &none      &none     
             >;
 
             display-name = "FNK MOV";
