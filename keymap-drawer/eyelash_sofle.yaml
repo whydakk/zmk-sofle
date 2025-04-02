@@ -29,15 +29,15 @@ layers:
   - {t: '=', s: +}
   - $$mdi:keyboard-tab$$
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-option$$'}
+  - LCTRL S
+  - LALT D
   - F
   - G
   - $$mdi:arrow-left-bold$$
   - H
   - J
-  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
+  - LALT K
+  - RCTRL L
   - {t: P, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-control$$
