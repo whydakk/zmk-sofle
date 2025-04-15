@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - F20
-  - $$mdi:keyboard-tab$$
+  - {t: '`', s: '~'}
   - Q
   - W
   - E
@@ -40,7 +40,7 @@ layers:
   - L
   - {t: P, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '`', s: '~'}
+  - $$mdi:apple-keyboard-caps$$
   - Z
   - X
   - C
@@ -170,7 +170,7 @@ layers:
   - {t: Sft+0, s: Sft+)}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Alt+F10
   - Alt+F10
   - Alt+F4
