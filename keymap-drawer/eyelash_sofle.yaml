@@ -28,7 +28,7 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - $$mdi:apple-keyboard-control$$
-  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - A
   - S
   - D
   - F
@@ -38,7 +38,7 @@ layers:
   - J
   - K
   - L
-  - {t: P, h: '$$mdi:apple-keyboard-shift$$'}
+  - P
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-caps$$
   - Z
@@ -55,7 +55,7 @@ layers:
   - {t: \, s: '|'}
   - $$mdi:volume-off$$
   - NUMPAD
-  - LGUI
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: LGUI}
   - {t: '$$mdi:keyboard-tab$$', h: FNK MOV}
@@ -63,7 +63,7 @@ layers:
   - FNK MOV
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-option$$'}
   - $$mdi:backspace-reverse-outline$$
-  - INS
+  - {t: INS, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: GAMING, h: toggle}
   GAMING:
   - $$mdi:keyboard-esc$$
