@@ -170,7 +170,7 @@ layers:
   - {t: Sft+0, s: Sft+)}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
   - Alt+F10
   - Alt+F10
   - Alt+F4
@@ -235,7 +235,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
