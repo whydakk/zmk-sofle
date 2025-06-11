@@ -27,7 +27,7 @@ layers:
   - O
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - A
   - S
   - D
@@ -39,8 +39,8 @@ layers:
   - K
   - L
   - P
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-shift$$'}
+  - $$mdi:apple-keyboard-control$$
   - Z
   - X
   - C
@@ -52,7 +52,7 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: \, h: '$$mdi:apple-keyboard-shift$$', s: '|'}
+  - {t: \, s: '|'}
   - $$mdi:volume-off$$
   - NUMPAD
   - LGUI
@@ -157,7 +157,7 @@ layers:
   - '&notequals_macro'
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F14, h: '$$mdi:apple-keyboard-shift$$'}
   - F15
   - F16
@@ -170,7 +170,7 @@ layers:
   - {t: Sft+0, s: Sft+)}
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - Alt+F10
   - Alt+F10
   - Alt+F4
@@ -222,7 +222,7 @@ layers:
   - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-shift$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -235,7 +235,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: ;, s: ':'}
   - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
