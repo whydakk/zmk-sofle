@@ -27,6 +27,10 @@
     trigger-period-ms = <16>;
 };
 
+&mt {
+    flavor = "balanced";
+};
+
 / {
     macros {
         arrow_macro: arrow_macro {
@@ -43,20 +47,6 @@
 };
 
 / {
-    behaviors {
-        mtc: hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "MOD_TAP_CUSTOM";
-            #binding-cells = <0>;
-            flavor = "hold-preferred";
-            tapping-term-ms = <200>;
-            bindings = <&kp>, <&kp>;
-        };
-    };
-};
-
-
-/ {
 
     scroll_encoder: scroll_encoder {
         compatible = "zmk,behavior-sensor-rotate";
@@ -70,11 +60,11 @@
 
         layer_0 {
             bindings = <
-&kp ESC         &kp N1    &kp N2     &kp N3    &kp N4           &kp N5     &kp UP_ARROW     &kp N6  &kp N7         &kp N8     &kp N9         &kp N0     &kp F20
-&kp GRAVE       &kp Q     &kp W      &kp E     &kp R            &kp T      &kp DOWN_ARROW   &kp Y   &kp U          &kp I      &kp O          &kp MINUS  &kp EQUAL
-&mt LSHFT CAPS  &kp A     &kp S      &kp D     &kp F            &kp G      &kp LEFT_ARROW   &kp H   &kp J          &kp K      &kp L          &kp P      &mt RSHFT ENTER
-&mo 4           &kp Z     &kp X      &kp C     &kp V            &kp B      &kp RIGHT_ARROW  &kp N   &kp M          &kp COMMA  &kp DOT        &kp FSLH   &kp BSLH
-&kp C_MUTE      &kp LGUI  &kp LCTRL  &kp LALT  &mtc LGUI SPACE  &lt 3 TAB  &kp ENTER        &mo 3   &mt RALT BSPC  &kp DEL    &mt RSHFT INS  &to 1
+&kp ESC         &kp N1    &kp N2     &kp N3    &kp N4          &kp N5     &kp UP_ARROW     &kp N6  &kp N7         &kp N8     &kp N9         &kp N0     &kp F20
+&kp GRAVE       &kp Q     &kp W      &kp E     &kp R           &kp T      &kp DOWN_ARROW   &kp Y   &kp U          &kp I      &kp O          &kp MINUS  &kp EQUAL
+&mt LSHFT CAPS  &kp A     &kp S      &kp D     &kp F           &kp G      &kp LEFT_ARROW   &kp H   &kp J          &kp K      &kp L          &kp P      &mt RSHFT ENTER
+&mo 4           &kp Z     &kp X      &kp C     &kp V           &kp B      &kp RIGHT_ARROW  &kp N   &kp M          &kp COMMA  &kp DOT        &kp FSLH   &kp BSLH
+&kp C_MUTE      &kp LGUI  &kp LCTRL  &kp LALT  &mt LGUI SPACE  &lt 3 TAB  &kp ENTER        &mo 3   &mt RALT BSPC  &kp DEL    &mt RSHFT INS  &to 1
             >;
 
             display-name = "BASE";
