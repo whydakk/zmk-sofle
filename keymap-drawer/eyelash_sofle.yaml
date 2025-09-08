@@ -57,7 +57,7 @@ layers:
   - LGUI
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - '&hmod_tspace'
+  - {t: '$$mdi:keyboard-space$$', h: LGUI}
   - {t: '$$mdi:keyboard-tab$$', h: FNK MOV}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - FNK MOV
