@@ -50,7 +50,7 @@
             #binding-cells = <0>;
             flavor = "hold-preferred";
             tapping-term-ms = <200>;
-            bindings = <&kp SPACE>, <&kp LGUI>; // tap = space, hold = mod
+            bindings = <&kp SPACE &kp LGUI>; // tap = space, hold = mod
         };
     };
 };
